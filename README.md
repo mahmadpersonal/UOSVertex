@@ -1,6 +1,6 @@
 # UOSVertex
 Overview
-UOSStudentGraph is a graph theory-based project designed to analyze and explore the intricate student network at the University of Sargodha (UOS). This project combines principles of discrete mathematics, modular programming, and data visualization to derive meaningful insights from student relationships. It is implemented in C++ with a focus on modularity, scalability, and user interactivity through a graphical user interface (GUI).
+UOSVertes is a graph theory-based project designed to analyze and explore the intricate student network at the University of Sargodha (UOS). This project combines principles of discrete mathematics, modular programming, and data visualization to derive meaningful insights from student relationships. It is implemented in C++ with a focus on modularity, scalability, and user interactivity through a graphical user interface (GUI).
 
 The primary objective is to identify patterns within the network, such as the most popular students, potential friendships, and broadcast points, using graph theory concepts like degree centrality, asymmetric relationships, and weighted graphs.
 
