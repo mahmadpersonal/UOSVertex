@@ -45,7 +45,7 @@ int main() {
   "Azhar Khan", "Muhammad Daniyal Idrees", "Mohid Hussain", "Anus Khan Burki", "Muhammad Anus Javed"
     };
 
-    int size = sizeof(data) / sizeof(data[0]);
+    // int size = sizeof(data) / sizeof(data[0]);
 
     string popularStudent = "";
     int maxCount = 0;
