@@ -16,4 +16,28 @@ int main()
         return 1;
     }
 
+
+
+
+
+
+    string mostPopularName = "";
+    int maxCount = 0;
+    for (int i = 0; i < index; i++) {
+        int dupCount = 1;
+        for (int j = i+1; j < index; j++) {
+            if (arr[i] == arr[j]) {
+                dupCount++;
+            }
+        }
+        if (dupCount > maxCount) {
+            maxCount = dupCount;
+            mostPopularName = arr[i];
+        }
+    }
+
+    cout << "Most Popular Name: " << mostPopularName << " with " << maxCount << " occurrences." << endl;
+
+    return 0;
+
 }
