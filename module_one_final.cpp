@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+    cout<<"Hello world !"<<endl;
     const int SIZE = 240; 
     string arr[SIZE];     
     int index = 0;
