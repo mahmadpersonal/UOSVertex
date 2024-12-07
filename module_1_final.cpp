@@ -15,7 +15,7 @@ int main()
         cout << "Error: Unable to open file." << endl;
         return 1;
     }
-
+// edit by fahad 
     string line, word;
     getline(file, line); 
     while (getline(file, line)) {
