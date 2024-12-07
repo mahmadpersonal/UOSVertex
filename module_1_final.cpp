@@ -16,13 +16,22 @@ int main()
         return 1;
     }
 
+    string line, word;
+    getline(file, line); 
+    while (getline(file, line)) {
+        stringstream ss(line);
+        getline(ss, word, ','); 
 
-
-
+        while (getline(ss, word, ',') && index < SIZE) {
+            arr[index++] = word;
+        }
+    }
+    file.close();
 
 
     string mostPopularName = "";
     int maxCount = 0;
+
     for (int i = 0; i < index; i++) {
         int dupCount = 1;
         for (int j = i+1; j < index; j++) {
@@ -37,7 +46,5 @@ int main()
     }
 
     cout << "Most Popular Name: " << mostPopularName << " with " << maxCount << " occurrences." << endl;
-
-    return 0;
 
 }
