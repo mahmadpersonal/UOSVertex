@@ -6,5 +6,15 @@
 using namespace std;
 int main()
 {
+    ifstream file("friends_dataset.csv")
+    if (!file.is_open())
+    {
+        cout<<"Unable to open the file !"<<endl;
+        return 1; //This indicated error
+    }
+                //key       //values
+    unordered_map<string, set<string>>friendships;
+
     
+
 }
