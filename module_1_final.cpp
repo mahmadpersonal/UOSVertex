@@ -46,5 +46,4 @@ int main()
     }
 
     cout << "Most Popular Name: " << mostPopularName << " with " << maxCount << " occurrences." << endl;
-
 }
